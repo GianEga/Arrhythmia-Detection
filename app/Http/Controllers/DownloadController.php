@@ -24,6 +24,6 @@ class DownloadController extends Controller
         // dd($files);
         // $files = array_slice($files, 0, 10);
         // $file_name = Storage::url($fileName);
-        return view(('/content', compact('file_name', 'files', 'ratio_data'));
+        return view('/content', compact('file_name', 'files', 'ratio_data'));
     }
 }
